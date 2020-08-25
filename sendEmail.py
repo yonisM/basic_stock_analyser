@@ -1,4 +1,5 @@
-#### Where ever you see python comments, is what you should change. IF it doesnt contain a python comment do not change!!!
+#### Where ever you see python comments, is what you should change. IF it doesnt contain a python comment do not change!!! -- see the following line numbers
+## Line 10, 11, 12, 17, 18, 20-33, 38, and 39
 
 import smtplib, ssl
 from email.mime.multipart import MIMEMultipart
@@ -8,7 +9,7 @@ from email import encoders
 
 fromaddr="yonis838@googlemail.com" #Person sending in the email. 
 sendto =['yonis.mohamoud@live.co.uk','yonis838@googlemail.com'] #List of email address you will be sending the email to
-password = 'odqhescsdicrxbdx' #create an APP Password with Google 
+password = '' #create an APP Password with Google and enter it here 
 
 
 msg = MIMEMultipart()
